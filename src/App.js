@@ -6,6 +6,7 @@ import Navbar from './component/Navbar';
 import { Switch, Route } from "react-router-dom";
 import Productos from './component/Productos';
 import Producto from './component/Producto';
+import Cart from './component/Cart';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route exact path="/" component={Home}/>
       <Route exact path="/products" component={Productos}/>
       <Route exact path="/products/:id" component={Producto}/>
+      <Route exact path="/cart" component={Cart}/>
     </Switch>
     </>
   );
