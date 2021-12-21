@@ -1,0 +1,4 @@
+/* Modificaremos el nabvar */
+.navbar-nav a{
+  font-size: 18px;
+}
